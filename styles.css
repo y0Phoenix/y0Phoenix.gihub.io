@@ -59,7 +59,14 @@ input[type=text]{
     padding: 2px 3px;
     font-size:15px;
     cursor: pointer;
-  }
+}
   .icon:hover {
     background-color: RoyalBlue;
-  }
+}
+.pic {
+    height: 120px;
+    width: 180px;
+    position: absolute;
+    top: 50px;
+    left: 45%;
+}
