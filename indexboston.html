@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="./data.js"></script>
+<script>
+    function wholelist() {
+        let div = document.getElementById('container');
+        let script = document.createElement('script');
+        script.src = './wholelist.js';
+        div.appendChild(script);
+    }
+    function searchlist() {
+        let div = document.getElementById('searchform');
+        let script = document.createElement('script');
+        script.src = './searchlistboston.js';
+        div.appendChild(script);
+    }
+    function clearlist() {
+        let div = document.getElementById('container');
+        div.innerHTML = "";
+        let _script = document.getElementById('walkboston');
+        _script.remove();
+        let script = document.createElement('script');
+        script.setAttribute('id', 'walkboston');
+        script.src = './walkboston.js';
+        let body = document.getElementById('body1');
+        body.appendChild(script);
+    }
+    function clearinputmin() {
+        let input = document.getElementById('min').value = '';
+    }
+    function clearinputmax() {
+        let input = document.getElementById('max').value = '';
+    }
+</script>
+<body id="body1">
+    <div id="searchform" class="container">
+        <h3>Type in the amounts you are looking for in the search</h3>
+        <form id="form" class="form">
+            Minumum Amount: <input type="text" id="min" placeholder="0.00" style="color: white;"/>
+            <button class="icon" onclick="clearinputmin()" id="minclear" ><i class="fa fa-close"></i></button><br>
+            Maximum Amount: <input type="text" id="max" placeholder="0.00" style="color: white;"/>
+            <button class="icon" onclick="clearinputmax()" style="top: 140px;" id="maxclear"><i class="fa fa-close"></i></button><br>
+            <a class="submitbutton" onclick="searchlist()">Submit
+            </a>
+        </form>
+        <button id="wholelistbutton" type="button" onclick="wholelist()" class="buttons" style="top: 150px; left: 60%">View the whole list</button>
+    </div>
+    <div id = "container" class="container" style="background-color: rgb(70, 70, 70);">
+    </div>
+    <script id="walkboston" src="./walkboston.js"></script>
+</body>
+
+
