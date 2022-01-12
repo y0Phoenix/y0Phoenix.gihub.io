@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Navbar = () => {
     return (
         <Fragment>
-            <h1 className='header'>Aaron Graybill</h1>
+            <h1 className='header'><Link to='/'>Aaron Graybill</Link></h1>
             <div className='container'>
                 <header className='d-flex justify-content-center py-3'>
                     <ul className='nav nav-pills'>
