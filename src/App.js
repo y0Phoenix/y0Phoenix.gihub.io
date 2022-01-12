@@ -15,13 +15,10 @@ function App() {
       <Fragment>
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<Landing />}>
-            <Route element={<Container />}>
-              <Route exact path='/projects' element={<Projects />}/>
-              <Route exact path='/aboutme' element={<Bio />}/>
-              <Route exact path='contact' element={<Contact />}/>
-            </Route>
-          </Route>
+          <Route exact path='/' element={<Landing />}/>
+          <Route exact path='/portfolio' element={<Projects />}/>
+          <Route exact path='/aboutme' element={<Bio />}/>
+          <Route exact path='contact' element={<Contact />}/>
         </Routes>
         <Footer />
       </Fragment>
