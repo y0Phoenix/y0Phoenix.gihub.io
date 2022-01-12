@@ -1,39 +1,70 @@
-# ***Aaron*** aka ***y0Phoenixs'*** webpage
+# Getting Started with Create React App
 
-## About Me
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Background
+## Available Scripts
 
-I grew up working with computers and playing video games, so When it came to understanding basic computer science I had a small advantage. Although most of my time was spent
-playing games I made YouTube videos, kind of embarrassing, however making videos and thumbnails taught me alot about graphics, process and vision. 
+In the project directory, you can run:
 
-My first job I ever had was at a Catering company ***Catering By Design*** in ***Rochester MN***. At the time I knew nothing of culinary arts and didn't expect the job to last long.
-However I ended up working there for 5 years (until I was 20) and became an excellent chef. I made everything from asian dishes, italian , indian,  american, etc. At the time I was
-under the impression that food would be my life, I mean I loved it, I was good at it and because I was good at it I could make a decent living. Then all of a sudden the
-Discord-Music-Bot-Pocalypse struck due to YouTube giving out Cease and Desist letters to all the major music bots. I said to myself well that sucks we can't listen to music in our
-Discord calls anymore. Then I had a thought, JUST MAKE MY OWN. I had worked with computers all my life, and I had modified code before so it shouldn't be too hard. Man was I wrong.
-It was the most challenging thing I had ever done with computers. I built my own computer, diagnosed it whenever it had problems but nothing like that came close to the challenges
-I faced when coding my very own Discord-Music-Bot ***Smoothy***, and you know what, I loved it. The hard process was fun for me, I also love the community that coding has, most
-everybody is so helpful and sincere. Shortly after I made ***Smoothy*** I enrolled into a part-time coding bootcamp ***MIT xPRO Full Stack Development***. I decided to
-pursue a career in programming, although I loved making food and I probably will forever, a tech job is more sustainable.
+### `npm start`
 
-So that is where my programming journey starts and my projects and future projects shown below are where it's going.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### My Projects
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-| MIT                                                                             | Date     | Desc                                       |
-| ------------------------------------------------------------------------------  | -------- | ------------------------------------------ |
-| [Move Ball](https://github.com/y0Phoenix/y0Phoenix.github.io/blob/main/ball.js) | 11/1/21  | Basic HTML Ball Moves Around the Screen    |
-| [PacMan](https://github.com/y0Phoenix/y0Phoenix.github.io/blob/main/pacman.js)  | 11/15/21 | Basic Pacman Images Move from side to side |
+### `npm test`
 
-| Personal                                                                        | Date              | Desc                                       |
-| ------------------------------------------------------------------------------- | ----------------- | ------------------------------------------ |
-| [Smoothy](https://github.com/y0Phoenix/Smoothy)                                 | 10/1/21 - Present | Discord Music Bot written in node.js       |
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Future Projects
+### `npm run build`
 
-1. My webpage build with three.js and webGL
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-2. A POS website that holds recipes, ingredient prices and general prices associated with a product, a time sheet where employees clock their hours
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-3. A video game
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
