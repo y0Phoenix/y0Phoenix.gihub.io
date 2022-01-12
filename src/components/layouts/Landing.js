@@ -2,11 +2,6 @@ import React, { Fragment } from 'react'
 import { Link } from 'react-router-dom'
 
 const Landing = () => {
-    const styles = {
-        "textAlign": "center",
-        "margin": "auto",
-        "padding": "10px"
-    }
     return (
         <Fragment>
             <main className='px-3'>
