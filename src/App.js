@@ -1,5 +1,5 @@
 import './App.css';
-import React, {Fragment} from 'react';
+import React, {Fragment, useEffect, useRef} from 'react';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Navbar from './components/layouts/Navbar';
 import Landing from './components/layouts/Landing';
