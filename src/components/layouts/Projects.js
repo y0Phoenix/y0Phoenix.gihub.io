@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react'
-import updateNavActive from '../../functions/updateNavActive'
 
 const Projects = () => {
-    updateNavActive('portfolio link');
     return (
         <Fragment>
             <main>

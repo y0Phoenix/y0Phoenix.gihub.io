@@ -1,11 +1,8 @@
-import React, { Fragment, useEffect } from 'react'
+import React, { Fragment, useRef } from 'react'
 import { Link } from 'react-router-dom'
-import updateNavActive from '../../functions/updateNavActive'
 
 const Landing = () => {
-    useEffect(() => {
-        updateNavActive('home link');
-    }, [])
+    const homeLink = useRef()
     const landingP = {
         "width": "45%"
     }
