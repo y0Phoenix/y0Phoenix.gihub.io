@@ -1,4 +1,4 @@
-import React, { Component, createRef, Fragment, useEffect, useRef } from 'react'
+import React, { Fragment, useEffect, useRef } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 const Navbar = () => {
     const homeLink = useRef();
