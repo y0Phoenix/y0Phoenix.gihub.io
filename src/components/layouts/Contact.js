@@ -1,5 +1,4 @@
-import React from 'react'
-import * as nodemailer from 'nodemailer';
+import React from 'react';
 
 const Contact = () => {
     return (
