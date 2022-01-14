@@ -52,3 +52,19 @@ hr {
   color: white;
   border-radius: 8px;
 }
+.portfolio-h1 {
+  text-align: center;
+  padding: 5px;
+}
+.future-container {
+  padding: 10px;
+  margin: 0 auto;
+  background-color:lightgray;
+}
+.future-container ul {
+  list-style-type: none;
+  padding-left: 35px;
+}
+.future-container li {
+  padding: 10px;
+}

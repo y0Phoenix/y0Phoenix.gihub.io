@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react'
 
 const Projects = () => {
+    const aStyle = {
+        "margin": "5px"
+    };
     return (
         <Fragment>
             <main>
@@ -10,13 +13,15 @@ const Projects = () => {
                             <h1 className='fw-dark'>Portfolio</h1>
                             <p className='lead text-muted'>Here are my projects I have worked on or am working on up until this point</p>
                             <p> 
-                                <a href='#mit' className='btn btn-primary my-2'>MIT Projects</a>
-                                <a href='#personal' className='btn btn-primary my-2'>Personal Projects</a>
+                                <a href='#mit' className='btn btn-primary my-2' style={aStyle}>MIT Projects</a>
+                                <a href='#personal' className='btn btn-primary my-2' style={aStyle}>Personal Projects</a>
+                                <a href='#future' className='btn btn-primary my-2' style={aStyle}>Future Prokects</a>
                             </p>
                         </div>
                     </div>
                 </section>
-                <div className='album py-5 bg-light' id='mit'>
+                <h1 className='portfolio-h1' id='mit'>MIT Projects</h1>
+                <div className='album py-5 bg-light'>
                     <div className='container'>
                         <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
                             <div className='col'>
@@ -104,7 +109,8 @@ const Projects = () => {
                     </div>
                 </div>
                 <hr></hr>
-                <div className='album py-5 bg-light' id='personal'>
+                <h1 className='portfolio-h1' id='personal'>Personal Projects</h1>
+                <div className='album py-5 bg-light'>
                     <div className='container'>
                         <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3'>
                             <div className='col'>
@@ -148,6 +154,15 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <hr></hr>
+                <h1 className='portfolio-h1' id='future'>Future Projects</h1>
+                <div className='future-container'>
+                    <ul>
+                        <li>My webpage build with three.js and webGL</li>
+                        <li>A POS website that holds recipes, ingredient prices and general prices associated with a product, a time sheet where employees clock their hours</li>
+                        <li>A video game</li>
+                    </ul>
                 </div>
             </main>
         </Fragment>
