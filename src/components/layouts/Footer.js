@@ -11,7 +11,7 @@ const Footer = () => {
                             <Link to='/' className='nav-link px-2 text-muted'>Home</Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to='/projects' className='nav-link px-2 text-muted'>Projects</Link>
+                            <Link to='/portfolio' className='nav-link px-2 text-muted'>Portfolio</Link>
                         </li>
                         <li className='nav-item'>
                             <Link to='/aboutme' className='nav-link px-2 text-muted'>About Me</Link>
