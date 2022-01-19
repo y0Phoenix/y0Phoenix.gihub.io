@@ -5,10 +5,12 @@ import _loading from '../../images/loading.gif';
 
 const Loading = ({loading}) => 
     loading.loading!== false &&
-        <img src={_loading}
-        style={{textAlign: 'center'}}
-        alt='Loading...'>
-        </img>
+        <div>
+            <img src={_loading}
+            style={{  left: '43%', right: '50%', position: 'fixed' }}
+            alt='Loading...'>
+            </img>
+        </div>
 
 
 Loading.propTypes = {
