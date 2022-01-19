@@ -3,29 +3,32 @@ import { setAlert } from "./setAlert";
 
 export const sendEmail = (formData) => async dispatch => {
     try {
-        console.log(formData);
         const config = {
             headers: {
             "Content-Type": "application/json"
             }
         };
-        const res = await axios.post('https://personal-webpage-back-end.herokuapp.com/api/email', formData, config)
+        dispatch({
+            type: 'LOADING'
+        });
+        
+        await axios.post('https://personal-webpage-back-end.herokuapp.com/api/email', formData, config)
+        
+        dispatch({
+            type: 'STOP_LOADING'
+        });
 
-        console.log(res);
-        // if (res.status !== 200) {
-        //     if (errors) {
-        //         errors.forEach((error) => dispatch(setAlert(error.msg, 7500)));
-        //     }
-        // }
-
-        dispatch(setAlert('Email Sent Successfully', 7500));
+        dispatch(setAlert('Email Sent Successfully', 'alert-success', 7500));
         
     } catch (err) {
+        dispatch({
+            type: 'STOP_LOADING'
+        });
         const errors = err.response.data.errors;
 
         console.log(errors);
         if (errors) {
-            errors.forEach((error) => dispatch(setAlert(error.msg, 7500)));
+            errors.forEach((error) => dispatch(setAlert(error.msg, 'alert-danger', 7500)));
         }
     }
 }

@@ -29,19 +29,26 @@ const Contact = ({sendEmail}) => {
     return (
         <div className='email-container'>
             <form className='email-form' onSubmit={e => onSubmit(e)}>
-                <div className='email-form-group'>
-                    <label htmlFor='emailFrom'>Your Email</label>
+                <div className='email-form-1'>
+                    <small>Your Email</small><br></br>
                     <input type='text' placeholder='example@gmail.com' value={emailFrom} name='emailFrom' onChange={(e) => onChange(e)}></input>
                 </div>
-                <div className='email-form-group'>
-                    <label htmlFor='subject'>Subject</label>
-                    <input type='text' placeholder='Inquiry' name='subject' value={subject} onChange={(e) => onChange(e)}></input>
+                <div className='email-form-2'>
+                    <div>
+                        <small>Subject</small><br></br>
+                        <input type='text' placeholder='Inquiry' name='subject' value={subject} onChange={(e) => onChange(e)}></input>
+                    </div>
                 </div>
-                <div className='email-form-group'>
-                    <label htmlFor='text'>Text</label>
-                    <input type='text' name='text' value={text} onChange={(e) => onChange(e)}></input>
+                <div className='email-form-3'>
+                    <small>Text</small><br></br>
+                    <textarea cols='50' rows='5' type='text' name='text' value={text} onChange={(e) => onChange(e)}></textarea>
                 </div>
-                <button type='submit'>Submit Email</button>
+                <div>
+                    <br></br>
+                    <button type='submit' className='email-form-submit'>Submit Email</button>
+                    <br></br>
+                    <br></br>
+                </div>
             </form>
         </div>
     )

@@ -10,6 +10,7 @@ import Alert from './components/layouts/Alert';
 import Contact from './components/layouts/Contact';
 import { Provider } from 'react-redux';
 import store from './store';
+import Loading from './components/layouts/loading';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Router>
         <Fragment>
           <Navbar />
+          <Loading />
           <Alert />
           <Routes>
             <Route exact path='/' element={<Landing />}/>

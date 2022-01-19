@@ -1,6 +1,9 @@
+body {
+  background-color: black;
+}
 .header {
   font-size: 3rem;
-  color: black;
+  color: white;
   margin: auto;
   text-align: center;
   font-family: cursive;
@@ -16,6 +19,7 @@
   margin: auto;
   padding: 10px;
   width: 65%;
+  color: white;
 }
 
 hr {
@@ -55,6 +59,7 @@ hr {
 .portfolio-h1 {
   text-align: center;
   padding: 5px;
+  color: white;
 }
 .future-container {
   padding: 10px;
@@ -67,4 +72,66 @@ hr {
 }
 .future-container li {
   padding: 10px;
+}
+.email-container{
+  background-color: #f2f2f2;
+  width: 25%;
+  margin: auto;
+}
+.email-form{
+  display: grid;
+  grid-template-areas: 
+  'email-form-1'
+  'email-form-2'
+  'email-form-3'
+  'email-form-submit'
+  ;
+  text-align: center;
+}
+.email-form input[type=text] {
+  width: 85%;
+  padding: 12px 10px;
+  margin: 2px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.email-form-1 {
+  grid-area: email-form-1;
+}
+.email-form-2 {
+  grid-area: email-form-2;
+}
+.email-form-3 {
+  grid-area: email-form-3;
+}
+.email-form-submit {
+  grid-area: email-form-submit;
+  background-color: #005ce6;
+  border-radius: 8px;
+  margin: auto;
+  width: 25%;
+  color: white;
+}
+.email-form-submit:hover{
+  background-color: #0066ff;
+}
+.alert-danger {
+  background-color: red;
+  color: white;
+  width: 200px;
+  padding: 5px;
+  margin: 15px auto;
+  text-align: center;
+  border-radius: 4px;
+}
+.alert-success {
+  background-color: green;
+  color: white;
+  width: 200px;
+  padding: 5px;
+  margin: 15px auto;
+  text-align: center;
+  border-radius: 4px;
 }
