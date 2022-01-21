@@ -20,6 +20,17 @@ const Footer = () => {
                             <Link to='/contact' className='nav-link px-2 text-muted'>Contact</Link>
                         </li>
                     </ul>
+                    <div style={{"textAlign": "center"}}>
+                        <a href='https://www.linkedin.com/in/aaron-graybill-297000230/' style={{"margin": "0 auto", "display": "inline-block", "textAlign": "center"}}>
+                            <i className='fab fa-linkedin fa-2x'></i>
+                        </a>
+                        <a href='https://github.com/y0Phoenix' style={{"margin": "0 auto", "display": "inline-block", "textAlign": "center", "padding": "12px"}}>
+                            <i className='fab fa-github-square fa-2x'></i>
+                        </a>
+                        <a href='mailto: aarongraybill3@gmail.com' style={{"margin": "0 auto", "display": "inline-block", "textAlign": "center"}}>
+                            <i class="fas fa-envelope-square fa-2x"></i>
+                        </a>
+                    </div>
                     <p className='text-center text-muted'>&copy; Aaron Graybill 2022</p>
                 </footer>
             </div>
