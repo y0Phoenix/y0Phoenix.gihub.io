@@ -29,6 +29,10 @@ const Contact = ({sendEmail}) => {
     return (
         <div className='email-container'>
             <form className='email-form' onSubmit={e => onSubmit(e)}>
+                <div>
+                    <small>To</small><br></br>
+                    <input type='text' placeholder='aarongraybill3@gmail.com' disabled></input>
+                </div>
                 <div className='email-form-1'>
                     <small>Your Email</small><br></br>
                     <input type='text' placeholder='example@gmail.com' value={emailFrom} name='emailFrom' onChange={(e) => onChange(e)}></input>
