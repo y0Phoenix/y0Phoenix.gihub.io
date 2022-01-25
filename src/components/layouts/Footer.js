@@ -28,7 +28,7 @@ const Footer = () => {
                             <i className='fab fa-github-square fa-2x'></i>
                         </a>
                         <a href='mailto: aarongraybill3@gmail.com' style={{"margin": "0 auto", "display": "inline-block", "textAlign": "center"}}>
-                            <i class="fas fa-envelope-square fa-2x"></i>
+                            <i className="fas fa-envelope-square fa-2x"></i>
                         </a>
                     </div>
                     <p className='text-center text-muted'>&copy; Aaron Graybill 2022</p>

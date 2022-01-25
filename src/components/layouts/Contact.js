@@ -45,7 +45,7 @@ const Contact = ({sendEmail}) => {
                 </div>
                 <div className='email-form-3'>
                     <small>Text</small><br></br>
-                    <textarea cols='50' rows='5' type='text' name='text' value={text} onChange={(e) => onChange(e)}></textarea>
+                    <textarea type='text' name='text' value={text} onChange={(e) => onChange(e)}></textarea>
                 </div>
                 <div>
                     <br></br>
