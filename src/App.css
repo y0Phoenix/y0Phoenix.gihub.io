@@ -14,14 +14,23 @@ body {
   text-decoration: none;
 }
 
-.landing-p{
+.landing-container {
   text-align: center;
   margin: auto;
-  padding: 10px;
-  width: 65%;
-  color: white;
 }
 
+.landing-p {
+  text-align: center;
+  width: 600px;
+  margin: auto;
+  padding: 10px;
+  color: white;
+}
+@media (max-width: 750px) {
+  .landing-p {
+    width: 300px;
+  }
+}
 hr {
   width: 85%;
   margin: auto;
@@ -75,7 +84,7 @@ hr {
 }
 .email-container{
   background-color: #f2f2f2;
-  width: 25%;
+  width: 475px;
   margin: auto;
 }
 .email-form{
@@ -101,16 +110,16 @@ hr {
   width: 400px;
   height: 150px;
 }
-@media (max-width:1570px) {
+/* @media (max-width:750px) {
   .email-form input[type=text] {
     width: 65%
   }
 }
-@media (max-width:1570px) {
+@media (max-width:750px) {
   .email-form textarea {
     width: 65%
   }
-}
+} */
 .email-form-1 {
   grid-area: email-form-1;
 }
