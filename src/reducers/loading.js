@@ -1,5 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
-const initialState = {loading: false};
+const initialState = {loading: true};
 
 export default function(state = initialState, action) {
     const {type} = action;

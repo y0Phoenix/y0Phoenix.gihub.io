@@ -153,6 +153,47 @@ hr {
     width: 275px;
   }
 }
+.loading {
+  top: 30%;
+  left: 43%;
+  display: block;
+  position: fixed;
+}
+@media (min-width: 2560px) {
+  .loading {
+    left: 45%;
+  }
+}
+@media (max-width: 1440px) {
+  .loading {
+    left: 41%;
+  }
+}
+@media (max-width: 1024px) {
+  .loading {
+    left: 38%;
+  }
+}
+@media (max-width: 768px) {
+  .loading {
+    left: 33%;
+  }
+}
+@media (max-width: 425px) {
+  .loading {
+    left: 20%;
+  }
+}
+@media (max-width: 375px) {
+  .loading {
+    left: 16%;
+  }
+}
+@media (max-width: 320px) {
+  .loading {
+    left: 10%;
+  }
+}
 .email-form{
   display: grid;
   grid-template-areas: 
