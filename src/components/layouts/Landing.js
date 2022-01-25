@@ -11,7 +11,7 @@ const Landing = () => {
                 <Link to='/portfolio' className='btn btn-lg btn-secondary fw-bold border-black bg-black' style={{"padding": "10px"}}>Projects Page</Link>
             </div>
             <div style={{"textAlign": "center"}}>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NqfQgthE0O8" 
+                <iframe className='intro-video' src="https://www.youtube.com/embed/NqfQgthE0O8" 
                 title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" style={{"textAlign": "center"}} allowfullscreen></iframe>
             </div>
         </Fragment>
