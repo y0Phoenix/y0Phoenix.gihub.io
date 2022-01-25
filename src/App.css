@@ -26,8 +26,10 @@ body {
   .navbar-container {
     width: 300px;
     grid-template-areas: 
-    'nav-item-1 nav-item-2'
-    'nav-item-3 nav-item-4';
+    'nav-item-1' 
+    'nav-item-2'
+    'nav-item-3'
+    'nav-item-4';
   }
 }
 .nav-item-1 {
