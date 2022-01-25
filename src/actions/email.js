@@ -1,7 +1,7 @@
 import axios from "axios";
 import { setAlert } from "./setAlert";
 
-export const sendEmail = (formData) => async dispatch => {
+export const sendEmail = (formData, resetForms) => async dispatch => {
     try {
         const config = {
             headers: {
@@ -19,6 +19,7 @@ export const sendEmail = (formData) => async dispatch => {
         });
 
         dispatch(setAlert('Email Sent Successfully', 'alert-success', 7500));
+        resetForms();
         
     } catch (err) {
         dispatch({
