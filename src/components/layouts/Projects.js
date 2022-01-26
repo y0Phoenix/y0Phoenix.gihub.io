@@ -15,7 +15,7 @@ const Projects = () => {
                             <p> 
                                 <a href='#mit' className='btn btn-primary my-2' style={aStyle}>MIT Projects</a>
                                 <a href='#personal' className='btn btn-primary my-2' style={aStyle}>Personal Projects</a>
-                                <a href='#future' className='btn btn-primary my-2' style={aStyle}>Future Prokects</a>
+                                <a href='#future' className='btn btn-primary my-2' style={aStyle}>Future Projects</a>
                             </p>
                         </div>
                     </div>
