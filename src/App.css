@@ -101,10 +101,19 @@ hr {
   background-color: #f2f2f2;
   text-align: center;
 }
+.bio-container img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 60%;
+  left: 82%;
+}
 .bio-container p {
-  margin-left: 30px;
   margin-bottom: 35px;
-  text-align: center;
+}
+.bio-p {
+  width: 80%; 
+  margin-left: 20px;
 }
 .bio-container h1 {
   margin-left: 5px;
@@ -166,6 +175,9 @@ hr {
   .loading {
     left: 45%;
   }
+  .bio-container img {
+    top: 34%;
+  }
 }
 @media (max-width: 1440px) {
   .loading {
@@ -176,25 +188,61 @@ hr {
   .loading {
     left: 38%;
   }
+  .bio-p {
+    width: 75%;
+  }
+  .bio-container img {
+    width: 150px;
+    height: 150px;
+    top: 75%;
+    left: 80%;
+  }
 }
 @media (max-width: 768px) {
   .loading {
     left: 33%;
   }
+  .bio-p {
+    width: 70%;
+  }
+  .bio-container img {
+    left: 74%;
+    top: 85%;
+  }
 }
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .loading {
     left: 20%;
   }
+  .bio-container img {
+    width: 75px;
+    height: 75px;
+    top: 100%;
+    left: 42%;
+  }
+  .bio-p {
+    margin-top: 70px;
+    width: 90%;
+  }
 }
-@media (max-width: 375px) {
+@media (max-width: 376px) {
   .loading {
     left: 16%;
   }
+  .bio-container img {
+    top: 125%;
+  }
 }
-@media (max-width: 320px) {
+@media (max-width: 321px) {
   .loading {
     left: 10%;
+  }
+  .bio-container img {
+    top: 135%;
+    left: 40%;
+  }
+  .bio-p {
+    width: 85%;
   }
 }
 .email-form{
