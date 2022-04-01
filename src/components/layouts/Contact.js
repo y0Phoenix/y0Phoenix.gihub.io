@@ -8,11 +8,13 @@ const Contact = ({sendEmail}) => {
     const sub = useRef();
     const tex = useRef();
 
-    const [formData, setFormData] = useState({
+    const initialState = {
         emailFrom: '',
         subject: '',
         text: ''
-    });
+    }
+
+    const [formData, setFormData] = useState(initialState);
 
 
 
@@ -25,6 +27,7 @@ const Contact = ({sendEmail}) => {
     const onChange = e => setFormData({...formData, [e.target.name]: e.target.value});
 
     const resetForms = () => {
+        setFormData(initialState);
         from.current.value = '';
         sub.current.value = '';
         tex.current.value = '';
