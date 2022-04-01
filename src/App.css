@@ -103,7 +103,6 @@ hr {
   display: flex;
   flex-direction: column;
 }
-<<<<<<< HEAD
 .bio-started-container {
   display: flex;
   flex-direction: column;
@@ -122,21 +121,6 @@ hr {
 }
 .bio-started img {
   padding: 15px;
-=======
-.bio-container img {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 60%;
-  left: 82%;
-}
-.bio-container p {
-  margin-bottom: 35px;
-}
-.bio-p {
-  width: 80%; 
-  margin-left: 20px;
->>>>>>> cffa0100629f94774d237f6bd9731f6ab48f886e
 }
 .bio-container h1 {
   margin-left: 5px;
